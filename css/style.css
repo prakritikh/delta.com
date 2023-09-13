@@ -60,7 +60,7 @@ nav{
     margin: 10px 0 40px;
     font-size: 14px;
 }
-.text-box a{
+.hero-btn{
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -72,7 +72,7 @@ nav{
     cursor: pointer;
     transition: 0.5s ease-in-out;
 }
-.text-box a:hover{
+.hero-btn:hover{
     border: 1px solid #ff4800;
     background-color: #ff4800;
 
@@ -314,77 +314,6 @@ nav .fa-solid{
     color: green;
 
 }
-/* .cointainer{
-    max-width: 1170px;
-    margin: auto;
-}
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
-.ul{
-    list-style: none;
-}
-.footer{
-    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../image/he.jpg);
-    padding: 70px 0;
-    background-position: center;
-    background-size: cover;
-
-}
-.footer-col{
-    width: 25%;
-    padding: 0 15px;
-    color: #fff;
-    background: transparent;
-
-}
-.footer-col h4{
-    font-size: 19px;
-    color: #ffffff;
-    text-transform: capitalize;
-    margin-bottom: 30px;
-    font-weight: 500;
-    position: relative;
-}
-
-.footer-col ul li:not(:last-child){
-    margin-bottom: 10px;
-}
-.footer ul li{
-    list-style: none;
-}
-.footer-col ul li a{
-    font-size: 17px;
-     text-transform: capitalize;
-     text-decoration: none;
-     font-weight: 300;
-     color: #bbbbbb;
-     display: block;
-     transition: all 0.3s ease;
-}
-.footer-col ul li a:hover{
-    color: #ffffffff;
-    padding-left: 8px;
-
-}
-.footer-col:social-links a{
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    background-color: rgb(73,93,96);
-    margin: 0 10px 0;
-    line-height: 100%;
-    border: #3671e7;
-    color: #ffffff;
-    transition: all 0.5s ease;
-}
-.fa-brands{
-    color: #bbbbbb;
-    font-size: 40px;
-}
-
- */
 .ft{
     min-height: 50vh;
     width: 100%;
@@ -450,4 +379,62 @@ nav .fa-solid{
 }
 .lower-footer .fa-regular{
     color: purple;
+}
+/*This is contact header css*/
+.header-contact{
+    min-height: 50vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../image/Picture2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.venue{
+    width: 90%;
+    min-height: 50vh;
+    align-items: center;
+    margin: auto;
+}
+/*This about css*/
+.header-about{
+    min-height: 50vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../image/h.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.why-college{
+    width: 90%;
+    min-height: 50vh;
+    align-items: center;
+    margin: auto;
+}
+.why-college-col{
+    flex-basis: 44%;
+    flex-direction: row;
+}
+.why-college-col img{
+    width: 100%;
+}
+.why-college-col h3{
+    color: #0a2241;
+    position: relative;
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+.why-college-col h3::before{
+    content: '';
+    left: 0;
+    bottom: -12px;
+    height: 2px;
+    width: 30%;
+    background: #ff4800;
+    position: absolute;
+}
+.redcolor{
+    background-color: skyblue;
+    margin-top: 30px;
+
 }
